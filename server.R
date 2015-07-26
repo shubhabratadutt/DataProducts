@@ -20,8 +20,7 @@ shinyServer(function(input, output) {
          main = paste("Boxplot of length vs. ",xlabel),
          xlab = xlabel, ylab = "length")    
   })
-  
-  
+    
   # Generate a summary of the data
   output$summary <- renderPrint({
     validate(
