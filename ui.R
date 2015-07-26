@@ -36,12 +36,12 @@ shinyUI(fluidPage(
         span("(teeth)", style = "color:blue"), " of 10 guniea pigs."),
       p("There are three dose levels: 0.5, 1 and 2. Use the slider to select one or
       more of these levels."),
-      p("Select the predictor of tooth length using the redio buttons for X-Axis.
+      p("Select the predictor of tooth length using the radio buttons for X-Axis.
         The resulting plot will show the effect of the predictor on tooth length."),
       p("The ",
         span("Summary", style = "color:blue"), " of the data subset and a ",
         span("Table", style = "color:blue"),  " view of the same are 
-        available in the respoctive tabs in the main panel")
+        available in the respective tabs in the main panel")
     ),
     
     # Show a tabset that includes a plot, summary, and table view
